@@ -224,13 +224,14 @@ img {
 }
 
 .thumb {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
     width: 264px;
     height: 112px;
     background-color: var(--color-thumb);
     padding: 0;
     border-radius: 4px;
-    display: flex;
-    align-items: center;
 }
 
 .icon-item {
@@ -263,7 +264,8 @@ img {
     padding-top: 0;
 }
 
-.illustrations-title, .resumes-title {
+.illustrations-title, .resumes-title,
+.customers-title {
     margin-top: 0;
     margin-bottom: 72px;
 
@@ -320,13 +322,35 @@ img {
     border-radius: 50%;
 }
 
-/*Footer section*/
+/*_____Customers section_____*/
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+}
+
+.customers-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
+
+/*______Footer section______*/
 
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
 
     background-color: var(--base-color-text);
+}
+
+.footer-container {
+    display: flex;
+    gap: 120px;
 }
 
 .footer-logo {
@@ -351,6 +375,20 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--border-color);
+}
+
+.social-media {
+    margin-bottom: 16px;
+    color: var(--maine-color-background);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.social-media-list {
+    display: flex;
+    gap: 16px;
 }
 
 /* Portfolio page: Section row */
