@@ -303,6 +303,23 @@ img {
     background-color: var(--maine-color-background);
 }
 
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 8px 0px;
+}
+
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-style-logo);
+    border-radius: 50%;
+}
+
 /*Footer section*/
 
 .footer {
