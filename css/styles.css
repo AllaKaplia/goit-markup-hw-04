@@ -348,7 +348,12 @@ img {
     border: 1px solid #4D5AE5;
 }
 
-.customers-icon:hover {
+.customers-icon {
+    fill: #8E8F99;
+}
+
+.customers-icon:hover, 
+.customers-link:focus {
     fill: var(--color-style-logo);
 }
 
