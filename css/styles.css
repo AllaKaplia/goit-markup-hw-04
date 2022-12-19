@@ -345,7 +345,7 @@ img {
 
 .customers-link:hover,
 .customers-link:focus {
-    border: 1px solid #4D5AE5;
+    border-color: #4D5AE5;
     fill: var(--color-style-logo);
 }
 
@@ -427,7 +427,6 @@ img {
     margin-bottom: 72px;
 }
 
-
 .examples-list {
     display: flex;
     flex-wrap: wrap;
@@ -442,7 +441,6 @@ img {
 
 .examples-link {
     display: block;
-    border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -484,7 +482,9 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    border-left: 0.5px solid #F4F4FD;
+    border-right: 0.5px solid #F4F4FD;
+    border-bottom: 0.5px solid #F4F4FD;
 }
 
 .examples-subtitle {
